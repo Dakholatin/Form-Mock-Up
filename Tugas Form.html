@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Tugas Membuat Form</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+	<fieldset>
+		<div class="judul">
+			<h2>DATA PASIEN</h2>
+		</div>
+
+		<div class="kiri">
+			<div class="isi">
+				<div class="isi-kiri2">
+					No. Registrasi:
+				</div>
+				<div class="isi-kanan">
+					<input type="text" placeholder="(Auto)">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					No. KK:
+				</div>
+				<div class="isi-kanan">
+					<input type="number" class="numberr">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Nomor Identitas:
+				</div>
+				<div class="isi-kanan">
+					<select class="select3" name="Identitas" id="Identitas">
+						<option value="">Pilih Identitas..</option>
+						<option value="text">KTP</option>
+						<option value="text">SIM</option>
+						<option value="text">NIK</option>
+					</select>
+					<input type="number" name="number" class="numberrr" placeholder="Nomor Identitas" />
+
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Nama Pasien:
+				</div>
+				<div class="isi-kanan">
+					<select class="select3">
+						<option value="title">Tuan</option>
+						<option value="title">Nyonya</option>
+						<option value="title">Nona</option>
+					</select>
+					<input type="text3" name="text" placeholder="Nama Pasien" />
+
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Jenis Kelamin:
+				</div>
+				<div class="isi-kanan">
+					<input type="radio" name="jenis kelamin" value="Laki-Laki" />Laki-Laki
+					<input type="radio" name="jenis kelamin" value="Perempuan" />Perempuan
+
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Golongan Darah:
+				</div>
+				<div class="isi-kanan">
+					<select class="select2">
+						<option value="">-</option>
+						<option name="Golongan Darah" value="A">A</option>
+						<option name="Golongan Darah" value="B">B</option>
+						<option name="Golongan Darah" value="AB">AB</option>
+						<option name="Golongan Darah" value="O">O</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Tempat Lahir:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Tgl Lahir/Umur:
+				</div>
+				<div class="isi-kanan">
+					<input type="date" name="date" />
+					<input class="number" type="number" name="number" />
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Jenis Pasien:
+				</div>
+				<div class="isi-kanan">
+					<select class="select">
+						<option value="P.umum">Pasien Umum</option>
+						<option value="p.rujukan">Pasien Rujukan</option>
+						<option value="p.BPJS">Pasien BPJS</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					No.Telp:
+				</div>
+				<div class="isi-kanan">
+					<input type="number" class="numberr">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					No. HP:
+				</div>
+				<div class="isi-kanan">
+					<input type="number" class="numberr">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri2">
+					Alamat:
+				</div>
+
+				<div class="isi-kanan">
+					<textarea></textarea>
+				</div>
+				<br><br>
+				<br><br>
+
+			</div>
+		</div>
+
+		<div class="tengah">
+			<div class="isi">
+				<div class="isi-kiri">
+					Email:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Negara:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Kota:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Kecamatan:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Kelurahan:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					RT/RW:
+				</div>
+				<div class="isi-kanan">
+					<input type="number" class="number"> <input type="number" class="number">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Domisili:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Agama:
+				</div>
+				<div class="isi-kanan">
+					<select class="select">
+						<option value="text">Islam</option>
+						<option value="text">Kristen Protestan</option>
+						<option value="text">Kristen Katolik</option>
+						<option value="text">Hindu</option>
+						<option value="text">Budha</option>
+						<option value="text">kong hu chu</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Suku:
+				</div>
+				<div class="isi-kanan">
+					<input type="text">
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Pendidikan:
+				</div>
+				<div class="isi-kanan">
+					<select class="select">
+						<option value="text">SD</option>
+						<option value="text">SMP</option>
+						<option value="text">SMA/SMA</option>
+						<option value="text">S1</option>
+						<option value="text">S2</option>
+						<option value="text">S3</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Pekerjaan:
+				</div>
+				<div class="isi-kanan">
+					<select class="select">
+						<option value="text">PNS</option>
+						<option value="text">Wirausaha</option>
+						<option value="text">Dosen</option>
+						<option value="text">Guru</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Status Nikah:
+				</div>
+				<div class="isi-kanan">
+					<select class="select">
+						<option value="text">Belum Menikah</option>
+						<option value="text">Sudah Menikah</option>
+					</select>
+				</div>
+				<br><br>
+
+				<div class="isi-kiri">
+					Valid:
+				</div>
+				<div class="isi-kanan">
+					<input type="radio" name="valid" value="Valid">Valid
+					<input type="radio" name="valid" value="Belum Valid">Belum Valid
+
+				</div>
+				<br><br>
+			</div>
+		</div>
+
+		<div class="kanan">
+			<div class="kotak">
+				<div class="catatan1">
+					Catatan
+				</div>
+				<div class="isi">
+					<div class="isi-kiri">
+						Catatan:
+					</div>
+					<div class="isi-kanan">
+						<textarea></textarea>
+					</div>
+					<br><br><br>
+				</div>
+			</div>
+
+			<div class="kotak">
+				<div class="catatan2">
+					Wali Pasien
+				</div>
+				<div class="isi">
+					<div class="isi-kiri">
+						Nama Wali:
+					</div>
+					<div class="isi-kanan">
+						<input type="text">
+					</div>
+					<br><br>
+
+					<div class="isi-kiri">
+						Tgl Lahir/Umur:
+					</div>
+					<div class="isi-kanan">
+						<input type="date" name="date" />
+						<input class="number" type="number" name="number" />
+					</div>
+					<br><br>
+					<div class="isi-kiri">
+						Jenis Kelamin:
+					</div>
+					<div class="isi-kanan">
+						<input type="radio" name="jenis kelamin" value="Laki-Laki" />Laki-Laki
+						<input type="radio" name="jenis kelamin" value="Perempuan" />Perempuan
+
+					</div>
+					<br><br>
+
+					<div class="isi-kiri">
+						Alamat:
+					</div>
+					<div class="isi-kanan">
+						<input type="text">
+					</div>
+					<br><br>
+
+					<div class="isi-kiri">
+						Hubungan:
+					</div>
+					<div class="isi-kanan">
+						<input type="text">
+					</div>
+
+				</div>
+				<br><br>
+
+			</div>
+
+			<div class="kotak">
+				<div class="catatan3">
+					Keluarga Pasien
+				</div>
+				<div class="isi">
+					<div class="isi-kiri">
+						Nama:
+					</div>
+					<div class="isi-kanan">
+						<input type="text">
+					</div>
+					<br><br>
+
+					<div class="isi-kiri">
+						Hubungan:
+					</div>
+					<div class="isi-kanan">
+						<input type="text">
+					</div>
+
+				</div>
+				<br><br>
+
+			</div>
+		</div>
+
+		</div>
+		<div style="width: 100%; float:right"><img src="" alt=""></div>
+		<div class="spasi"><img src="" alt=""></div>
+		<button class="button"><img src="batal.png" alt="gagal tampil"> Batal</button>
+		<button class="button"><img src="save.png" alt="gagal tampil"> Simpan</button>
+		<br><br><br><br>
+
+
+	</fieldset>
+</body>
+
+</html>
