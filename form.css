@@ -1,0 +1,160 @@
+
+body{
+    font-family: sans-serif;
+}
+
+.judul{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.kiri{
+    font-size: 14px;
+    width: 40%;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.tengah{
+    font-size: 14px;
+    width: 30%;
+/* background-color: lavender; */
+    float: left;
+
+}
+
+.kanan{
+    font-size: 14px;
+    width: 30%;
+    /* background-color: antiquewhite;  */
+    float: right;
+}
+
+
+
+.spasi{
+    width: 50px;
+    float: right;
+}
+.button{
+    width: 90px;
+    float: right;   
+    padding: 5px 10px;
+    color: white;
+    background-color: dodgerblue ;
+    border: 1px solid royalblue;
+    margin: -10px 5px;    
+}
+
+.button img{
+    
+    width: 12px;    
+    height: 12px;
+}
+
+
+.kotak{
+    margin: 20px 0px 30px 10px;
+    border-radius: 2px;
+    width: 350px;
+    height: auto;
+    border: 1px solid gray;
+}
+
+.catatan1{
+    width: 43px;
+    margin-top: -10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 10px;
+    background: white;
+}
+
+.catatan2{
+    width: 78px;
+    margin-top: -10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    background: white;
+}
+.catatan3{
+    width: 107px;
+    margin-top: -10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    background: white;
+}
+
+.isi{
+    padding: 10px;
+}
+
+.isi-kiri{
+    width: 100px;
+    float: left;
+}
+
+
+.isi-kiri2{
+    width: 120px;
+    float: left;
+    padding-left: 100px;
+}
+
+.isi-kanan{
+    float: left;
+}
+
+.select{
+    width: 223px;
+    height: 24px;
+}
+
+.select2{
+    width: 130px;
+    height: 24px;
+}
+
+.select3{
+    width: 86px;
+    height: 24px;
+}
+
+.isi-kanan textarea{
+    width: 220px;
+    height: 38px;
+}
+
+.isi-kanan input[type="text"]{
+    width: 220px;
+}
+
+.isi-kanan input[type="text2"]{
+    width: 50px;
+}
+
+.isi-kanan input[type="text3"]{
+    width: 130px;
+}
+
+.numberrr{
+    width: 130px;
+}
+
+.numberr{
+    width: 220px;
+}
+
+.number{
+    width: 50px;
+}
+
+.isi-kanan input[type="date"]{
+    height: 17px;
+    width: 161px;
+
+}
+
